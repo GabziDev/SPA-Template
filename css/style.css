@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(219, 219, 219);
+    border: none;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: 100ms ease all;
+}
+
+button:hover {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
